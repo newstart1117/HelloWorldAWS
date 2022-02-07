@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+
+#For MySQL
+spring:
+  datasource:
+    url: jdbc:mysql://helloworldaws.cxh56sklfvhg.us-east-1.rds.amazonaws.com/helloworld?serverTimezone=UTC&useSSL=false
+    username: admin
+    password: 11111111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  http:
+    encoding:
+      force: true
